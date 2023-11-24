@@ -13,7 +13,7 @@ async def on_chat_start():
         [
             (
                 "system",
-                "You're a very knowledgeable historian who provides accurate and eloquent answers to historical questions.",
+                "I would like you to create a simple melody in LilyPond notation. The melody should be suitable for beginners, consisting of a single line and not exceeding 8 bars in length. Please use a common time signature (like 4/4) and a key that is easy for beginners (such as C major). The melody should be rhythmic and easy to follow, with a mix of quarter notes and half notes, and should stay within one octave range. Avoid complex rhythms or accidentals. Please also add basic dynamic markings (like forte or piano) and tempo indication at the beginning.",
             ),
             ("human", "{question}"),
         ]
